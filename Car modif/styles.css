@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Pacifico&display=swap");
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.logo-text {
+  font-family: Pacifico;
+}
+
+#home-page__hero {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.45) 100%
+    ),
+    url("./assets/home-page__hero-image.jpg");
+  background-size: cover, cover;
+  background-position: center, center;
+}
+
+#tracking-page__hero {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.45) 100%
+    ),
+    url("./assets/home-page__hero-image.jpg");
+  background-size: cover, cover;
+  background-position: center, center;
+}
+
+#tracking-page__hero .container {
+  height: 384px;
+}
+
+#home-page__hero .container {
+  height: 384px;
+}
+
+img.home-page__showcase-trust-image {
+  width: 100%;
+  height: 384px;
+  object-fit: cover;
+  object-position: center;
+}
+
+img.home-page__showcase-quality-image {
+  width: 100%;
+  height: 384px;
+  object-fit: cover;
+  object-position: center;
+}
+
+img.home-page__showcase-service-image {
+  width: 100%;
+  height: 384px;
+  object-fit: cover;
+  object-position: center;
+}
+
+img.tracking-detail-page__car-image {
+  width: 100%;
+  height: 384px;
+  object-fit: cover;
+  object-position: center;
+}
